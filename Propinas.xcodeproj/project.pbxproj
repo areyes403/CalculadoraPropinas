@@ -14,6 +14,7 @@
 		48F2B89D282958D500CF8E4C /* Propinas.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 48F2B89B282958D500CF8E4C /* Propinas.xcdatamodeld */; };
 		48F2B89F282958DE00CF8E4C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48F2B89E282958DE00CF8E4C /* Assets.xcassets */; };
 		48F2B8A2282958DE00CF8E4C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48F2B8A0282958DE00CF8E4C /* LaunchScreen.storyboard */; };
+		48F2B8AB28295A4900CF8E4C /* SecondScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F2B8AA28295A4900CF8E4C /* SecondScreenViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		48F2B89E282958DE00CF8E4C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		48F2B8A1282958DE00CF8E4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		48F2B8A3282958DE00CF8E4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48F2B8AA28295A4900CF8E4C /* SecondScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondScreenViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				48F2B8A0282958DE00CF8E4C /* LaunchScreen.storyboard */,
 				48F2B8A3282958DE00CF8E4C /* Info.plist */,
 				48F2B89B282958D500CF8E4C /* Propinas.xcdatamodeld */,
+				48F2B8AA28295A4900CF8E4C /* SecondScreenViewController.swift */,
 			);
 			path = Propinas;
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				48F2B897282958D500CF8E4C /* ViewController.swift in Sources */,
+				48F2B8AB28295A4900CF8E4C /* SecondScreenViewController.swift in Sources */,
 				48F2B89D282958D500CF8E4C /* Propinas.xcdatamodeld in Sources */,
 				48F2B893282958D500CF8E4C /* AppDelegate.swift in Sources */,
 				48F2B895282958D500CF8E4C /* SceneDelegate.swift in Sources */,
