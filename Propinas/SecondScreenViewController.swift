@@ -9,10 +9,16 @@ import UIKit
 
 class SecondScreenViewController: UIViewController {
 
+    
+    @IBOutlet weak var lblMontoCU: UILabel!
+    @IBOutlet weak var lblTotal: UILabel!
+    var total=0.0
+    var montoCU=0.0
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        lblTotal.text=String(total)
     }
     
 
