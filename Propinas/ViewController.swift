@@ -25,7 +25,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        
+        self.slPropina.value = 10.0
         
         
     }
@@ -33,6 +33,7 @@ class ViewController: UIViewController {
     @IBAction func slider(_ sender: UISlider) {
         lblSlider.text="\(String(format: "%.2f", sender.value)) %"
         propina = sender.value
+        print(propina)
     }
     
     
@@ -71,10 +72,11 @@ struct Cerebrocalculadora {
     var propina: Propina?
     
     mutating func calcularPropina(total:Float,personas:Int,prop: Float){
-        let valor = total/Float(personas)
-        let tot=total
+        let valorPropina = total*(prop/100)
         let p=prop
-        propina = Propina(total: tot, porcentaje: p,monto: valor)
+        let final=total/Float(personas) + valorPropina/Float(personas)
+        print(final)
+        propina = Propina(total: total, porcentaje: p,monto: final)
         
     }
     func retornarMonto() -> String{

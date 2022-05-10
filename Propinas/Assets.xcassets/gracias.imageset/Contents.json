@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "gracias-por-su-compra-en-español-letras-ilustración-de-lápiz-caligrafía-moderna-pincel-traducción-del-tu-elemento-para-193742802.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
