@@ -15,6 +15,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var tfNumPersonas: UITextField!
     @IBOutlet weak var slPropina: UISlider!
     @IBOutlet weak var lblSlider: UILabel!
+    @IBOutlet weak var btnCalcular: UIButton!
     
     var total:Float = 0.0
     var propina:Float = 0.0
@@ -26,6 +27,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         self.slPropina.value = 10.0
+        btnCalcular.layer.cornerRadius = 5
         
         
     }
